@@ -2,7 +2,7 @@
 
 __code for calculating mapped-read abundance for MAGs__
 
--- 1.make_cov_mp.py
+_1.make_cov_mp.py_
 ```
 Usage: generate relative abundance table with multiple cores
 
@@ -20,7 +20,7 @@ Options:
                         bedtools absolute path
 ```
 
---2.amr_mapped_range.py
+_2.amr_mapped_range.py_
 ```
 Usage: get AMR coverage file from bamfiles
 
