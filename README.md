@@ -37,3 +37,15 @@ Options:
   -b BEDT, --bedtools=BEDT
                         bedtools absolute path
 ```
+
+_NMDS analysis in R_
+```
+%%R 
+library(vegan)
+dfMAG<-read.csv("output_from_code1",header=TRUE,row.names=1) %>% t() 
+bray_met<-vegdist(dfMAG,"bray")
+df_bray<-as.matrix(bray_met)
+# Perform NMDS
+nmds_result <- metaMDS(df_bray, k = 2) # k is the number of dimensions
+nmds_result
+```
