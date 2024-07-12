@@ -4,7 +4,7 @@ __code for calculating mapped-read abundance for MAGs__
 
 _1.make_cov_mp.py_
 ```
-Usage: generate relative abundance table with multiple cores
+Usage: generate MAG relative abundance table with multiprocessing
 
 Options:
   -h, --help            show this help message and exit
