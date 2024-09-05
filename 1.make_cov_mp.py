@@ -97,7 +97,7 @@ if __name__=="__main__":
     parser.add_option("-t","--threads",dest="worker",
             help="working cpu number",type="int")
     parser.add_option("-b","--bedtools",dest="bedt",
-            help="bedtools absolute path",type="int")
+            help="bedtools absolute path",type="string")
     (opts,args)=parser.parse_args()
 
     if opts.inputf is None or opts.fasta is None or opts.outputf is None:
